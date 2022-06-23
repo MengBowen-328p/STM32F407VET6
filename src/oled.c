@@ -1,6 +1,6 @@
-#include "XMF_OLED_STM32Cube.h"
+#include "oled.h"
 #include "i2c.h"
-#include "XMF_OLED_Font.h"
+#include "font.h"
 
 //初始化命令
 uint8_t CMD_Data[]={
