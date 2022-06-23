@@ -25,6 +25,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "XMF_OLED_STM32Cube.h"
+#include "delay.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
