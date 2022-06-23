@@ -1,7 +1,7 @@
 #include "delay.h"
 
 #define CPU_FREQUENCY_MHZ    72		// STM32时钟主频
-void delay_us(__IO uint32_t delay)
+void Delay_us(__IO uint32_t delay)
 {
     int last, curr, val;
     int temp;
