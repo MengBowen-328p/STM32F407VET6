@@ -27,6 +27,7 @@
 /* USER CODE BEGIN Includes */
 #include "oled.h"
 #include "delay.h"
+#include "nixie.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -96,16 +97,15 @@ int main(void)
   HAL_GPIO_WritePin(LED3_GPIO_Port,LED3_Pin,GPIO_PIN_SET);  //关闭LED3
   HAL_GPIO_WritePin(EN_GPIO_Port,EN_Pin,GPIO_PIN_RESET);
   HAL_GPIO_WritePin(DIR_GPIO_Port,DIR_Pin,GPIO_PIN_RESET);
+TM1637_DATA_Config(11,1,22,1,1);
+TM1637_DATA_Display();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    HAL_GPIO_WritePin(STP_GPIO_Port,STP_Pin,GPIO_PIN_SET);
-    HAL_Delay(1);
-    HAL_GPIO_WritePin(STP_GPIO_Port,STP_Pin,GPIO_PIN_RESET);
-    HAL_Delay(1);
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

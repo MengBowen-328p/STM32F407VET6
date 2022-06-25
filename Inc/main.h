@@ -65,6 +65,10 @@ void Error_Handler(void);
 #define LED2_GPIO_Port GPIOA
 #define LED3_Pin GPIO_PIN_7
 #define LED3_GPIO_Port GPIOA
+#define NIXIE_CLK_Pin GPIO_PIN_6
+#define NIXIE_CLK_GPIO_Port GPIOD
+#define NIXIE_DIO_Pin GPIO_PIN_7
+#define NIXIE_DIO_GPIO_Port GPIOD
 #define STP_Pin GPIO_PIN_9
 #define STP_GPIO_Port GPIOB
 #define DIR_Pin GPIO_PIN_0
