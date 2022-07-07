@@ -69,12 +69,14 @@ void Error_Handler(void);
 #define NIXIE_CLK_GPIO_Port GPIOD
 #define NIXIE_DIO_Pin GPIO_PIN_7
 #define NIXIE_DIO_GPIO_Port GPIOD
+#define EN_Pin GPIO_PIN_8
+#define EN_GPIO_Port GPIOB
 #define STP_Pin GPIO_PIN_9
 #define STP_GPIO_Port GPIOB
 #define DIR_Pin GPIO_PIN_0
 #define DIR_GPIO_Port GPIOE
-#define EN_Pin GPIO_PIN_1
-#define EN_GPIO_Port GPIOE
+#define ENE1_Pin GPIO_PIN_1
+#define ENE1_GPIO_Port GPIOE
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
