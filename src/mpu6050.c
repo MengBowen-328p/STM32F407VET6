@@ -1,5 +1,5 @@
 #include "main.h"
-#include "mpu.h"
+#include "mpu6050.h"
 #include "i2c.h"
 #include "usart.h"
 #include "usbd_cdc_if.h"

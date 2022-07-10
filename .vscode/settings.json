@@ -4,6 +4,7 @@
         "xmf_oled_font.h": "c",
         "delay.h": "c",
         "stm32f4xx_hal.h": "c",
-        "xmf_oled_stm32cube.h": "c"
+        "xmf_oled_stm32cube.h": "c",
+        "usbd_cdc_if.h": "c"
     }
 }

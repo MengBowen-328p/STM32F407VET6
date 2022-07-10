@@ -29,7 +29,7 @@
 #include "oled.h"
 #include "delay.h"
 #include "nixie.h"
-#include "mpu.h"
+#include "mpu6050.h"
 #include "stdio.h"
 #include "usbd_cdc_if.h"
 /* USER CODE END Includes */
@@ -51,7 +51,7 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-uint8_t TX_Buf[]={"G_X:35.7/G_Y:248.5/G_Z:3.9"};
+uint8_t TX_Buf[]={"Hello World!"};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -105,14 +105,13 @@ int main(void)
   HAL_GPIO_WritePin(LED3_GPIO_Port,LED3_Pin,GPIO_PIN_SET);    //关闭LED3
   HAL_GPIO_WritePin(EN_GPIO_Port,EN_Pin,GPIO_PIN_RESET);      //�???启电机使�???
   HAL_GPIO_WritePin(DIR_GPIO_Port,DIR_Pin,GPIO_PIN_SET);      //正转
-
+  OLED_ShowString(0,0,TX_Buf,sizeof(TX_Buf));
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    OLED_ShowString(0,0,TX_Buf,sizeof(TX_Buf));
     // HAL_GPIO_WritePin(STP_GPIO_Port,STP_Pin,GPIO_PIN_SET);
     // Delay_us(50);
     // HAL_GPIO_WritePin(STP_GPIO_Port,STP_Pin,GPIO_PIN_RESET);
