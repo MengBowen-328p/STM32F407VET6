@@ -30,8 +30,11 @@
 #include "delay.h"
 #include "nixie.h"
 #include "mpu6050.h"
-#include "stdio.h"
+#include <stdio.h>
+#include <stdlib.h>
 #include "usbd_cdc_if.h"
+#include <stdarg.h>
+#include <string.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -51,7 +54,8 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-uint8_t TX_Buf[]={"Hello World!"};
+uint8_t TX_Buf[]={"X:65.20;Y:251.27;Z:1026.31"};
+short x,y,z;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -62,7 +66,22 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+void vprint(const char *fmt, va_list argp)
+{
+    char string[200];
+    if(0 < vsprintf(string,fmt,argp)) // build string
+    {
+        HAL_UART_Transmit(&huart1, (uint8_t*)string, strlen(string), 0xffffff); // send message via UART
+    }
+}
 
+void my_printf(const char *fmt, ...) // custom printf() function
+{
+    va_list argp;
+    va_start(argp, fmt);
+    vprint(fmt, argp);
+    va_end(argp);
+}
 /* USER CODE END 0 */
 
 /**
@@ -72,7 +91,7 @@ void SystemClock_Config(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
+  int fputc(int ch, FILE *f);
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -99,19 +118,22 @@ int main(void)
   MX_USART1_UART_Init();
   MX_I2C2_Init();
   OLED_Init();
+  MPU_Init();
   /* USER CODE BEGIN 2 */
 
   HAL_GPIO_WritePin(LED2_GPIO_Port,LED2_Pin,GPIO_PIN_RESET);  //关闭LED2
   HAL_GPIO_WritePin(LED3_GPIO_Port,LED3_Pin,GPIO_PIN_SET);    //关闭LED3
   HAL_GPIO_WritePin(EN_GPIO_Port,EN_Pin,GPIO_PIN_RESET);      //�???启电机使�???
   HAL_GPIO_WritePin(DIR_GPIO_Port,DIR_Pin,GPIO_PIN_SET);      //正转
-  OLED_ShowString(0,0,TX_Buf,sizeof(TX_Buf));
+  OLED_ShowString(1,1,TX_Buf,12);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    MPU_Get_Gyroscope(&x,&y,&z);
+    my_printf("X:%d,Y:%d,Z:%d\n",x,y,z);
     // HAL_GPIO_WritePin(STP_GPIO_Port,STP_Pin,GPIO_PIN_SET);
     // Delay_us(50);
     // HAL_GPIO_WritePin(STP_GPIO_Port,STP_Pin,GPIO_PIN_RESET);
@@ -172,7 +194,11 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+int fputc(int ch, FILE *f)
+{     
+	HAL_UART_Transmit(&huart1, (uint8_t *)&ch, 1, 0xffff);   
+	return ch;
+}
 /* USER CODE END 4 */
 
 /**

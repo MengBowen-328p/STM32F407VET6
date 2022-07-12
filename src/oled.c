@@ -162,7 +162,7 @@ void OLED_Display_Off(void)
 void OLED_Clear(void)  
 {  
 	u8 i,n;		    
-	for(i=0;i<8;i++)  
+	for(i=0;i<4;i++)  
 	{  
 		OLED_WR_Byte (0xb0+i,OLED_CMD);    //设置页地址（0~7）
 		OLED_WR_Byte (0x00,OLED_CMD);      //设置显示位置—列低地址
@@ -176,7 +176,7 @@ void OLED_Clear(void)
 void OLED_On(void)  
 {  
 	u8 i,n;		    
-	for(i=0;i<8;i++)  
+	for(i=0;i<4;i++)  
 	{  
 		OLED_WR_Byte (0xb0+i,OLED_CMD);    //设置页地址（0~7）
 		OLED_WR_Byte (0x00,OLED_CMD);      //设置显示位置—列低地址
@@ -191,7 +191,15 @@ void OLED_On(void)
 //mode:0,反白显示;1,正常显示
 //chr：要显示的字符		 
 //size:选择字体 16/12  
-**********************************************/	  
+**********************************************/
+
+void OLED_DrawPoint(u8 x, u8 y)
+{
+	OLED_Set_Pos(x,y);
+	OLED_WR_Byte(0xC0,OLED_DATA);
+	OLED_WR_Byte(0xC0,OLED_DATA);
+}
+
 void OLED_ShowChar(u8 x,u8 y,u8 chr,u8 Char_Size)
 {      	
 	unsigned char c=0,i=0;	
