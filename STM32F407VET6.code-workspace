@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"name": "STM32F407VET6",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"cmsis_os.h": "c",
+			"freertos.h": "c"
+		}
+	}
+}

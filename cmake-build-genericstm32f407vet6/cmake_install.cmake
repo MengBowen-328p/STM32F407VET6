@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/15216/Documents/PlatformIO/Projects/STM32F407VET6
+# Install script for directory: D:/PlatformIO_Projects/Projects/STM32F407VET6
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/15216/Documents/PlatformIO/Projects/STM32F407VET6/cmake-build-genericstm32f407vet6/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/PlatformIO_Projects/Projects/STM32F407VET6/cmake-build-genericstm32f407vet6/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

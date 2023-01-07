@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "D:\Clion\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\15216\Documents\PlatformIO\Projects\STM32F407VET6 -BC:\Users\15216\Documents\PlatformIO\Projects\STM32F407VET6\cmake-build-genericstm32f407vet6
+  command = "D:\Clion\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\PlatformIO_Projects\Projects\STM32F407VET6 -BD:\PlatformIO_Projects\Projects\STM32F407VET6\cmake-build-genericstm32f407vet6
   description = Re-running CMake...
   generator = 1
 

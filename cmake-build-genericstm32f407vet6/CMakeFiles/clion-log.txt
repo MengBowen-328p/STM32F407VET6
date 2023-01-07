@@ -1,4 +1,4 @@
-"D:\Clion\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=genericSTM32F407VET6 "-DCMAKE_MAKE_PROGRAM=D:/Clion/CLion 2022.2.3/bin/ninja/win/ninja.exe" -DCMAKE_C_COMPILER=D:/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER=D:/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe -G Ninja -S C:\Users\15216\Documents\PlatformIO\Projects\STM32F407VET6 -B C:\Users\15216\Documents\PlatformIO\Projects\STM32F407VET6\cmake-build-genericstm32f407vet6
+"D:\Clion\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=genericSTM32F407VET6 "-DCMAKE_MAKE_PROGRAM=D:/Clion/CLion 2022.2.3/bin/ninja/win/ninja.exe" -DCMAKE_C_COMPILER=D:/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER=D:/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe -G Ninja -S D:\PlatformIO_Projects\Projects\STM32F407VET6 -B D:\PlatformIO_Projects\Projects\STM32F407VET6\cmake-build-genericstm32f407vet6
 -- The C compiler identification is GNU 10.3.1
 -- The CXX compiler identification is GNU 10.3.1
 -- Detecting C compiler ABI info
@@ -11,4 +11,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/15216/Documents/PlatformIO/Projects/STM32F407VET6/cmake-build-genericstm32f407vet6
+-- Build files have been written to: D:/PlatformIO_Projects/Projects/STM32F407VET6/cmake-build-genericstm32f407vet6

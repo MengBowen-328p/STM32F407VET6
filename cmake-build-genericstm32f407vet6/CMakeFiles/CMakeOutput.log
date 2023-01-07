@@ -11,7 +11,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
 
-The C compiler identification is GNU, found in "C:/Users/15216/Documents/PlatformIO/Projects/STM32F407VET6/cmake-build-genericstm32f407vet6/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.o"
+The C compiler identification is GNU, found in "D:/PlatformIO_Projects/Projects/STM32F407VET6/cmake-build-genericstm32f407vet6/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.o"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: D:/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe 
@@ -24,5 +24,5 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
 
-The CXX compiler identification is GNU, found in "C:/Users/15216/Documents/PlatformIO/Projects/STM32F407VET6/cmake-build-genericstm32f407vet6/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.o"
+The CXX compiler identification is GNU, found in "D:/PlatformIO_Projects/Projects/STM32F407VET6/cmake-build-genericstm32f407vet6/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.o"
 

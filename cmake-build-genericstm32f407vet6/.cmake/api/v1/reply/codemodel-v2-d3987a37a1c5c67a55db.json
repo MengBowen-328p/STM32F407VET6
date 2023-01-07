@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-genericSTM32F407VET6-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "genericSTM32F407VET6",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "STM32F407VET6",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Debug-genericSTM32F407VET6-c9d5d4bfca213d4ffe4b.json",
+					"name" : "Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Production::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Production-genericSTM32F407VET6-5554965e0dee34d9536f.json",
+					"name" : "Production",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Z_DUMMY_TARGET::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Z_DUMMY_TARGET-genericSTM32F407VET6-891e7555f5f056cc2b8d.json",
+					"name" : "Z_DUMMY_TARGET",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/PlatformIO_Projects/Projects/STM32F407VET6/cmake-build-genericstm32f407vet6",
+		"source" : "D:/PlatformIO_Projects/Projects/STM32F407VET6"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

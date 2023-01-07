@@ -1,0 +1,47 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "C:/Users/15216/Documents/PlatformIO/Projects/STM32F407VET6/.pio/build/genericSTM32F407VET6/firmware.elf",
+            "projectEnvName": "genericSTM32F407VET6",
+            "toolchainBinDir": "C:/Users/15216/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/15216/.platformio/platforms/ststm32/misc/svd/STM32F40x.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "C:/Users/15216/Documents/PlatformIO/Projects/STM32F407VET6/.pio/build/genericSTM32F407VET6/firmware.elf",
+            "projectEnvName": "genericSTM32F407VET6",
+            "toolchainBinDir": "C:/Users/15216/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/15216/.platformio/platforms/ststm32/misc/svd/STM32F40x.svd"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (without uploading)",
+            "executable": "C:/Users/15216/Documents/PlatformIO/Projects/STM32F407VET6/.pio/build/genericSTM32F407VET6/firmware.elf",
+            "projectEnvName": "genericSTM32F407VET6",
+            "toolchainBinDir": "C:/Users/15216/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/15216/.platformio/platforms/ststm32/misc/svd/STM32F40x.svd",
+            "loadMode": "manual"
+        }
+    ]
+}

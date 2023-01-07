@@ -3,15 +3,17 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
       <config projectName="STM32F407VET6" targetName="Debug" />
+      <config projectName="STM32F407VET6" targetName="build" />
+      <config projectName="STM32F407VET6" targetName="all" />
       <config projectName="STM32F407VET6" targetName="Production" />
       <config projectName="STM32F407VET6" targetName="Z_DUMMY_TARGET" />
     </generated>
@@ -22,31 +24,24 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcdbdd1b-0f49-4f03-8157-9884b0fceb8c" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/XMF_OLED_BMP.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/delay.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/font.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/Inc/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/mpu6050.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/nixie.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/oled.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/stm32f4xx_hal_conf.h" beforeDir="false" afterPath="$PROJECT_DIR$/Inc/stm32f4xx_hal_conf.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/stm32f4xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Inc/stm32f4xx_it.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STM32F407VET6.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/STM32F407VET6.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STM32F407VETx_FLASH.ld" beforeDir="false" afterPath="$PROJECT_DIR$/STM32F407VETx_FLASH.ld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platformio.ini" beforeDir="false" afterPath="$PROJECT_DIR$/platformio.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mpu6050.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nixie.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oled.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stm32f4xx_hal_msp.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/stm32f4xx_hal_msp.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stm32f4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/stm32f4xx_it.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/usbd_conf.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/usbd_conf.c" afterDir="false" />
+    <list default="true" id="bcdbdd1b-0f49-4f03-8157-9884b0fceb8c" name="变更" comment="Init FreeRTOS">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/.cmake/api/v1/reply/cache-v2-0af0937a5ce54993d5b1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/.cmake/api/v1/reply/cmakeFiles-v1-3bc6466015e67f9ec08f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/.cmake/api/v1/reply/codemodel-v2-3233b50189de66157484.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/.cmake/api/v1/reply/index-2023-01-07T15-47-22-0194.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/.cmake/api/v1/reply/target-Z_DUMMY_TARGET-genericSTM32F407VET6-c6a1150fab42f44980ad.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/cmake_install.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,14 +108,23 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/15216/Documents/PlatformIO/Projects/STM32F407VET6",
-    "settings.editor.selected.configurable": "clion.platformio.config"
+    "last_opened_file_path": "D:/PlatformIO_Projects/Projects/STM32F407VET6",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager" selected="PlatformIO.PlatformIO 调试 ">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="all" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="STM32F407VET6" TARGET_NAME="all" CONFIG_NAME="all" version="1">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="build" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="STM32F407VET6" TARGET_NAME="build" CONFIG_NAME="build" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration name="Debug" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="STM32F407VET6" TARGET_NAME="Debug" CONFIG_NAME="genericSTM32F407VET6">
@@ -129,6 +133,11 @@
       </method>
     </configuration>
     <configuration name="Z_DUMMY_TARGET" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="STM32F407VET6" TARGET_NAME="Z_DUMMY_TARGET" CONFIG_NAME="genericSTM32F407VET6" RUN_TARGET_PROJECT_NAME="STM32F407VET6" RUN_TARGET_NAME="Z_DUMMY_TARGET">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -146,6 +155,8 @@
     <list>
       <item itemvalue="CMake 应用程序.Debug" />
       <item itemvalue="CMake 应用程序.Z_DUMMY_TARGET" />
+      <item itemvalue="Makefile 应用程序.all" />
+      <item itemvalue="Makefile 应用程序.build" />
       <item itemvalue="PlatformIO.PlatformIO 上传" />
       <item itemvalue="PlatformIO.PlatformIO 调试 " />
     </list>
@@ -158,8 +169,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673106264658</updated>
-      <workItem from="1673106267736" duration="173000" />
+      <workItem from="1673106267736" duration="1576000" />
+      <workItem from="1673113593100" duration="212000" />
     </task>
+    <task id="LOCAL-00001" summary="Init FreeRTOS">
+      <created>1673106500832</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673106500832</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,5 +195,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init FreeRTOS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init FreeRTOS" />
   </component>
 </project>
