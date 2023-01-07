@@ -78,7 +78,10 @@ void Error_Handler(void);
 #define ENE1_Pin GPIO_PIN_1
 #define ENE1_GPIO_Port GPIOE
 /* USER CODE BEGIN Private defines */
-
+#define led2_on   HAL_GPIO_WritePin(LED2_GPIO_Port,LED2_Pin,GPIO_PIN_RESET);
+#define led2_off  HAL_GPIO_WritePin(LED2_GPIO_Port,LED2_Pin,GPIO_PIN_SET);
+#define led3_on   HAL_GPIO_WritePin(LED3_GPIO_Port,LED3_Pin,GPIO_PIN_RESET);
+#define led3_off  HAL_GPIO_WritePin(LED3_GPIO_Port,LED3_Pin,GPIO_PIN_SET);
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "cmsis_os.h"
 #include "i2c.h"
 #include "spi.h"
 #include "usart.h"
@@ -26,15 +27,6 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "oled.h"
-#include "delay.h"
-#include "nixie.h"
-#include "mpu6050.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include "usbd_cdc_if.h"
-#include <stdarg.h>
-#include <string.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -54,34 +46,37 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-uint8_t TX_Buf[]={"X:65.20;Y:251.27;Z:1026.31"};
-short x,y,z;
+// uint8_t TX_Buf[]={"X:65.20;Y:251.27;Z:1026.31"};
+// short x,y,z;
+
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
+void MX_FREERTOS_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-void vprint(const char *fmt, va_list argp)
-{
-    char string[200];
-    if(0 < vsprintf(string,fmt,argp)) // build string
-    {
-        HAL_UART_Transmit(&huart1, (uint8_t*)string, strlen(string), 0xffffff); // send message via UART
-    }
-}
+// void vprint(const char *fmt, va_list argp)
+// {
+//     char string[200];
+//     if(0 < vsprintf(string,fmt,argp)) // build string
+//     {
+//         HAL_UART_Transmit(&huart1, (uint8_t*)string, strlen(string), 0xffffff); // send message via UART
+//     }
+// }
 
-void my_printf(const char *fmt, ...) // custom printf() function
-{
-    va_list argp;
-    va_start(argp, fmt);
-    vprint(fmt, argp);
-    va_end(argp);
-}
+// void my_printf(const char *fmt, ...) // custom printf() function
+// {
+//     va_list argp;
+//     va_start(argp, fmt);
+//     vprint(fmt, argp);
+//     va_end(argp);
+// }
 /* USER CODE END 0 */
 
 /**
@@ -91,7 +86,7 @@ void my_printf(const char *fmt, ...) // custom printf() function
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-  int fputc(int ch, FILE *f);
+  // int fputc(int ch, FILE *f);
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -114,33 +109,24 @@ int main(void)
   MX_GPIO_Init();
   MX_I2C1_Init();
   MX_SPI1_Init();
-  MX_USB_DEVICE_Init();
   MX_USART1_UART_Init();
   MX_I2C2_Init();
-  OLED_Init();
-  MPU_Init();
   /* USER CODE BEGIN 2 */
 
-  HAL_GPIO_WritePin(LED2_GPIO_Port,LED2_Pin,GPIO_PIN_RESET);  //关闭LED2
-  HAL_GPIO_WritePin(LED3_GPIO_Port,LED3_Pin,GPIO_PIN_SET);    //关闭LED3
-  HAL_GPIO_WritePin(EN_GPIO_Port,EN_Pin,GPIO_PIN_RESET);      //�???启电机使�???
-  HAL_GPIO_WritePin(DIR_GPIO_Port,DIR_Pin,GPIO_PIN_SET);      //正转
-  OLED_ShowString(1,1,TX_Buf,12);
   /* USER CODE END 2 */
 
+  /* Init scheduler */
+  osKernelInitialize();  /* Call init function for freertos objects (in freertos.c) */
+  MX_FREERTOS_Init();
+
+  /* Start scheduler */
+  osKernelStart();
+
+  /* We should never get here as control is now taken by the scheduler */
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    MPU_Get_Gyroscope(&x,&y,&z);
-    my_printf("X:%d,Y:%d,Z:%d\n",x,y,z);
-    // HAL_GPIO_WritePin(STP_GPIO_Port,STP_Pin,GPIO_PIN_SET);
-    // Delay_us(50);
-    // HAL_GPIO_WritePin(STP_GPIO_Port,STP_Pin,GPIO_PIN_RESET);
-    // Delay_us(50);
-    // CDC_Transmit_FS(TX_Buf,sizeof(TX_Buf));
-    // HAL_Delay(1000);
-    
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -194,12 +180,33 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-int fputc(int ch, FILE *f)
-{     
-	HAL_UART_Transmit(&huart1, (uint8_t *)&ch, 1, 0xffff);   
-	return ch;
-}
+// int fputc(int ch, FILE *f)
+// {     
+// 	HAL_UART_Transmit(&huart1, (uint8_t *)&ch, 1, 0xffff);   
+// 	return ch;
+// }
 /* USER CODE END 4 */
+
+/**
+  * @brief  Period elapsed callback in non blocking mode
+  * @note   This function is called  when TIM14 interrupt took place, inside
+  * HAL_TIM_IRQHandler(). It makes a direct call to HAL_IncTick() to increment
+  * a global variable "uwTick" used as application time base.
+  * @param  htim : TIM handle
+  * @retval None
+  */
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+  /* USER CODE BEGIN Callback 0 */
+
+  /* USER CODE END Callback 0 */
+  if (htim->Instance == TIM14) {
+    HAL_IncTick();
+  }
+  /* USER CODE BEGIN Callback 1 */
+
+  /* USER CODE END Callback 1 */
+}
 
 /**
   * @brief  This function is executed in case of error occurrence.

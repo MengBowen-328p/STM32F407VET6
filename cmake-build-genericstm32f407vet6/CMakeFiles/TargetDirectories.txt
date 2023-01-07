@@ -1,0 +1,5 @@
+C:/Users/15216/Documents/PlatformIO/Projects/STM32F407VET6/cmake-build-genericstm32f407vet6/CMakeFiles/Production.dir
+C:/Users/15216/Documents/PlatformIO/Projects/STM32F407VET6/cmake-build-genericstm32f407vet6/CMakeFiles/Debug.dir
+C:/Users/15216/Documents/PlatformIO/Projects/STM32F407VET6/cmake-build-genericstm32f407vet6/CMakeFiles/Z_DUMMY_TARGET.dir
+C:/Users/15216/Documents/PlatformIO/Projects/STM32F407VET6/cmake-build-genericstm32f407vet6/CMakeFiles/edit_cache.dir
+C:/Users/15216/Documents/PlatformIO/Projects/STM32F407VET6/cmake-build-genericstm32f407vet6/CMakeFiles/rebuild_cache.dir
