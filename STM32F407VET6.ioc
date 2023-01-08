@@ -1,7 +1,8 @@
 #MicroXplorer Configuration settings - do not modify
 FREERTOS.FootprintOK=true
-FREERTOS.IPParameters=Tasks01,configENABLE_FPU,FootprintOK
-FREERTOS.Tasks01=defaultTask,24,128,StartDefaultTask,Default,NULL,Dynamic,NULL,NULL;myTask02,8,128,StartTask02,Default,NULL,Dynamic,NULL,NULL
+FREERTOS.IPParameters=Tasks01,configENABLE_FPU,FootprintOK,Queues01
+FREERTOS.Queues01=MPU6050_Para,16,uint16_t,0,Dynamic,NULL,NULL
+FREERTOS.Tasks01=defaultTask,24,128,StartDefaultTask,Default,NULL,Dynamic,NULL,NULL;myTask02,8,128,StartTask02,Default,NULL,Dynamic,NULL,NULL;MPU6050,55,256,StartMPU6050,Default,NULL,Dynamic,NULL,NULL;OLED_Disp,55,128,StartOledDisp,Default,NULL,Dynamic,NULL,NULL
 FREERTOS.configENABLE_FPU=1
 File.Version=6
 GPIO.groupedBy=Group By Peripherals

@@ -7,8 +7,8 @@
 #define ON  GPIO_PIN_SET
 #define OFF GPIO_PIN_RESET
 
-void led2Ctrl(uint8_t status);
-void led3Ctrl(uint8_t status);
-uint8_t readKey0(void);
-uint8_t readKey1(void);
+void LED2_Ctrl(uint8_t status);
+void LED3_Ctrl(uint8_t status);
+uint8_t Read_Key0(void);
+uint8_t Read_Key1(void);
 #endif

@@ -1,0 +1,4 @@
+h
+loadbin .pio\build\genericSTM32F407VET6\firmware.bin, 0x08000000
+r
+q

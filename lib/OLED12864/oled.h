@@ -5,6 +5,8 @@
 #include "i2c.h"
 #include "stdlib.h"
 
+
+
 #define OLED_MODE 0
 #define SIZE 8
 #define XLevelL		0x00

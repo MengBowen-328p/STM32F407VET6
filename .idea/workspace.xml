@@ -25,23 +25,150 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcdbdd1b-0f49-4f03-8157-9884b0fceb8c" name="变更" comment="Init FreeRTOS">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/.cmake/api/v1/reply/cache-v2-0af0937a5ce54993d5b1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/.cmake/api/v1/reply/cmakeFiles-v1-3bc6466015e67f9ec08f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/.cmake/api/v1/reply/codemodel-v2-3233b50189de66157484.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/.cmake/api/v1/reply/index-2023-01-07T15-47-22-0194.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/.cmake/api/v1/reply/target-Z_DUMMY_TARGET-genericSTM32F407VET6-c6a1150fab42f44980ad.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/.sconsign39.dblite" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/.sconsign39.dblite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkCMSISDevice/gcc/startup_stm32f407xx.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkCMSISDevice/gcc/startup_stm32f407xx.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkCMSISDevice/system_stm32f4xx.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkCMSISDevice/system_stm32f4xx.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_adc.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_adc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_adc_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_adc_ex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_can.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_can.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_cec.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_cec.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_cortex.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_cortex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_crc.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_crc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_cryp.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_cryp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_cryp_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_cryp_ex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_dac.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_dac.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_dac_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_dac_ex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_dcmi.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_dcmi.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_dcmi_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_dcmi_ex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_dfsdm.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_dfsdm.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_dma.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_dma.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_dma2d.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_dma2d.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_dma_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_dma_ex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_dsi.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_dsi.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_eth.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_eth.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_exti.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_exti.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_flash.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_flash.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_flash_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_flash_ex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_flash_ramfunc.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_flash_ramfunc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_fmpi2c.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_fmpi2c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_fmpi2c_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_fmpi2c_ex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_fmpsmbus.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_fmpsmbus.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_fmpsmbus_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_fmpsmbus_ex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_gpio.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_gpio.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_hash.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_hash.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_hash_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_hash_ex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_hcd.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_hcd.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_i2c.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_i2c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_i2c_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_i2c_ex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_i2s.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_i2s.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_i2s_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_i2s_ex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_irda.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_irda.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_iwdg.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_iwdg.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_lptim.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_lptim.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_ltdc.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_ltdc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_ltdc_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_ltdc_ex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_mmc.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_mmc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_nand.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_nand.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_nor.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_nor.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_pccard.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_pccard.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_pcd.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_pcd.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_pcd_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_pcd_ex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_pwr.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_pwr.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_pwr_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_pwr_ex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_qspi.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_qspi.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_rcc.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_rcc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_rcc_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_rcc_ex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_rng.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_rng.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_rtc.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_rtc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_rtc_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_rtc_ex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_sai.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_sai.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_sai_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_sai_ex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_sd.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_sd.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_sdram.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_sdram.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_smartcard.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_smartcard.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_smbus.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_smbus.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_spdifrx.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_spdifrx.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_spi.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_spi.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_sram.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_sram.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_tim.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_tim.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_tim_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_tim_ex.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_uart.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_uart.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_usart.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_usart.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_wwdg.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_hal_wwdg.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_adc.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_adc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_crc.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_crc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_dac.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_dac.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_dma.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_dma.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_dma2d.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_dma2d.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_exti.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_exti.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_fmc.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_fmc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_fmpi2c.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_fmpi2c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_fsmc.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_fsmc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_gpio.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_gpio.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_i2c.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_i2c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_lptim.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_lptim.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_pwr.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_pwr.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_rcc.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_rcc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_rng.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_rng.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_rtc.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_rtc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_sdmmc.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_sdmmc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_spi.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_spi.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_tim.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_tim.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_usart.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_usart.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_usb.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_usb.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_utils.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/FrameworkHALDriver/Src/stm32f4xx_ll_utils.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/firmware.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/firmware.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/firmware.elf" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/firmware.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/lib472/CDC/usbd_cdc.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/lib472/CDC/usbd_cdc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/lib472/libCDC.a" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/lib472/libCDC.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/lib775/Core/usbd_core.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/lib775/Core/usbd_core.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/lib775/Core/usbd_ctlreq.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/lib775/Core/usbd_ctlreq.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/lib775/Core/usbd_ioreq.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/lib775/Core/usbd_ioreq.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/lib775/libCore.a" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/lib775/libCore.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libFrameworkCMSISDevice.a" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libFrameworkCMSISDevice.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libd12/TM1637/nixie.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libd12/TM1637/nixie.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libd12/libTM1637.a" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libd12/libTM1637.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libf06/FreeRTOS/cmsis_os2.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libf06/FreeRTOS/cmsis_os2.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libf06/FreeRTOS/croutine.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libf06/FreeRTOS/croutine.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libf06/FreeRTOS/event_groups.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libf06/FreeRTOS/event_groups.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libf06/FreeRTOS/heap_4.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libf06/FreeRTOS/heap_4.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libf06/FreeRTOS/list.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libf06/FreeRTOS/list.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libf06/FreeRTOS/port.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libf06/FreeRTOS/port.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libf06/FreeRTOS/queue.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libf06/FreeRTOS/queue.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libf06/FreeRTOS/stream_buffer.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libf06/FreeRTOS/stream_buffer.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libf06/FreeRTOS/tasks.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libf06/FreeRTOS/tasks.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libf06/FreeRTOS/timers.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libf06/FreeRTOS/timers.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libf06/libFreeRTOS.a" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/libf06/libFreeRTOS.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/delay.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/delay.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/freertos.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/freertos.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/gpio.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/gpio.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/i2c.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/i2c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/spi.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/spi.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/stm32f4xx_hal_msp.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/stm32f4xx_hal_msp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/stm32f4xx_hal_timebase_tim.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/stm32f4xx_hal_timebase_tim.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/stm32f4xx_it.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/stm32f4xx_it.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/syscalls.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/syscalls.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/system_stm32f4xx.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/system_stm32f4xx.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/usart.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/usart.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/usb_device.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/usb_device.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/usbd_cdc_if.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/usbd_cdc_if.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/usbd_conf.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/usbd_conf.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/usbd_desc.o" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/genericSTM32F407VET6/src/usbd_desc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inc/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/Inc/main.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32F407VET6.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/STM32F407VET6.ioc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-genericstm32f407vet6/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/BSP_VET6/bsp.c" beforeDir="false" afterPath="$PROJECT_DIR$/lib/BSP_VET6/bsp.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/BSP_VET6/bsp.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/BSP_VET6/bsp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/MPU6050/mpu6050.c" beforeDir="false" afterPath="$PROJECT_DIR$/lib/MPU6050/mpu6050.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/OLED12864/oled.c" beforeDir="false" afterPath="$PROJECT_DIR$/lib/OLED12864/oled.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/OLED12864/oled.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/OLED12864/oled.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/freertos.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/freertos.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +243,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="PlatformIO.PlatformIO 调试 ">
+  <component name="RunManager" selected="PlatformIO.PlatformIO 上传">
     <configuration name="all" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="STM32F407VET6" TARGET_NAME="all" CONFIG_NAME="all" version="1">
       <method v="2">
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
@@ -170,7 +297,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673106264658</updated>
       <workItem from="1673106267736" duration="1576000" />
-      <workItem from="1673113593100" duration="212000" />
+      <workItem from="1673113593100" duration="9837000" />
     </task>
     <task id="LOCAL-00001" summary="Init FreeRTOS">
       <created>1673106500832</created>
@@ -179,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673106500832</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Init FreeRTOS">
+      <created>1673113836996</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673113836996</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

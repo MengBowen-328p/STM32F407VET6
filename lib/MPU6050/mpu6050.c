@@ -1,6 +1,5 @@
 #include "mpu6050.h" 
 #include "stdio.h"
-#include "main.h"
 
 //初始化MPU6050
 //返回值:0,成功

@@ -1,6 +1,5 @@
 #include "oled.h"
-#include "stdlib.h"
-#include "font.h"  	 
+#include "font.h"
 //OLED 的显存
 //[0]0 1 2 3 ... 127	
 //[1]0 1 2 3 ... 127	
